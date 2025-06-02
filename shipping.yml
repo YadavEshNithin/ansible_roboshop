@@ -28,8 +28,8 @@
 
   - name: create the app directory
     ansible.builtin.file:
-    path: /app
-    state: directory
+      path: /app
+      state: directory
 
 
   - name: download the code

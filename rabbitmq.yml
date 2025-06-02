@@ -5,8 +5,8 @@
 
     - name: copy the repo file
       ansible.builtin.copy:
-      src: rabbitmq.repo
-      dest: /etc/yum.repos.d/rabbitmq.repo
+        src: rabbitmq.repo
+        dest: /etc/yum.repos.d/rabbitmq.repo
 
     - name: install the rabbitmq
       ansible.builtin.dnf:
