@@ -48,7 +48,7 @@
         dest: /etc/systemd/system/cart.service  
 
    - name: restart the daemon_relod
-     ansible.builtin.systemcd_service:
+     ansible.builtin.systemd_service:
         daemon_relod: true    
 
    - name: start and enable the cart service
